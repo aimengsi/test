@@ -2340,16 +2340,16 @@ var defaultOptions = {
 //   }],
   breakpoints: [{
     changePoint: 480,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 2,
+    slidesToScroll: 2
   }, {
     changePoint: 640,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 2,
+    slidesToScroll: 2
   }, {
     changePoint: 768,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 2,
+    slidesToScroll: 2
   }],
 
   onReady: null,
