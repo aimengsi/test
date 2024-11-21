@@ -2324,7 +2324,7 @@ var defaultOptions = {
   duration: 300,
   timing: 'ease',
 
-  autoplay: true,
+  autoplay: false,
   autoplaySpeed: 3000,
   pauseOnHover: true,
 //   breakpoints: [{
