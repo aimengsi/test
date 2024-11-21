@@ -1228,8 +1228,10 @@ var Breakpoints = function () {
 		key: 'init',
 		value: function init() {
 			this._defaultBreakpoint = {
-				slidesToShow: this.options.slidesToShow,
-				slidesToScroll: this.options.slidesToScroll
+				// slidesToShow: this.options.slidesToShow,
+				// slidesToScroll: this.options.slidesToScroll
+				slidesToShow: 1,
+				slidesToScroll: 1
 			};
 			this.options.breakpoints.sort(function (a, b) {
 				return parseInt(a.changePoint, 10) > parseInt(b.changePoint, 10);
