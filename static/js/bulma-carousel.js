@@ -1230,8 +1230,6 @@ var Breakpoints = function () {
 			this._defaultBreakpoint = {
 				slidesToShow: this.options.slidesToShow,
 				slidesToScroll: this.options.slidesToScroll
-				// slidesToShow: 1,
-				// slidesToScroll: 1
 			};
 			this.options.breakpoints.sort(function (a, b) {
 				return parseInt(a.changePoint, 10) > parseInt(b.changePoint, 10);
@@ -2327,31 +2325,18 @@ var defaultOptions = {
   autoplay: false,
   autoplaySpeed: 3000,
   pauseOnHover: true,
-//   breakpoints: [{
-//     changePoint: 480,
-//     slidesToShow: 1,
-//     slidesToScroll: 1
-//   }, {
-//     changePoint: 640,
-//     slidesToShow: 2,
-//     slidesToScroll: 2
-//   }, {
-//     changePoint: 768,
-//     slidesToShow: 3,
-//     slidesToScroll: 3
-//   }],
   breakpoints: [{
     changePoint: 480,
     slidesToShow: 1,
     slidesToScroll: 1
   }, {
     changePoint: 640,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 2,
+    slidesToScroll: 2
   }, {
     changePoint: 768,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 3,
+    slidesToScroll: 3
   }],
 
   onReady: null,
